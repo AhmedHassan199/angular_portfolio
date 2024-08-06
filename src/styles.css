@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+
+body{
+  font-family: system-ui, sans-serif;
+  font-weight: 700;
+  font-size: larger;
+  padding-top: 90px;
+  box-sizing: border-box;
+ /* background-color: #1ABC9C; */
+}
+.line {
+  height: 4px;
+  width: 80px;
+}

@@ -1,0 +1,39 @@
+
+.image-wrapper {
+  position: relative;
+}
+
+.card-img-top {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#1ABC9C; /* Adjust color and opacity as needed */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.fa-plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Adjust color as needed */
+  font-size: 100px; /* Adjust size as needed */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-wrapper:hover .overlay {
+  opacity: .7;
+}
+
+.image-wrapper:hover .fa-plus {
+  opacity: .7;
+}
+
+
